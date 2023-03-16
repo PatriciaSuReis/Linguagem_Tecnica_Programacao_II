@@ -66,7 +66,7 @@
 
                 switch ($op) {
                     case "todos":
-                        $saida = $sequencia->exibirPares();
+                        $saida = $sequencia->exibirTodos();
                         break;
                     
                     case "par":
